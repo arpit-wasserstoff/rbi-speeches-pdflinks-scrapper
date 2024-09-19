@@ -16,7 +16,7 @@ export async function scrapeRbiSpeeches() {
     headless: false,
     slowMo: 100,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    userDataDir: "./temp",
+
     executablePath: "/usr/bin/google-chrome",
   });
   const page = await browser.newPage();
