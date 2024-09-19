@@ -1,0 +1,20 @@
+{
+  "name": "puppeteer-try",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^128.0.3",
+    "mongoose": "^8.6.3",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.3.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
